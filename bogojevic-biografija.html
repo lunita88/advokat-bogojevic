@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+    
+<meta charset="UTF-8">
+<title>Advokat Bogojevic | Banja Luka</title>
+<meta name="description" content="Treba Vam pravna pomoc?Pozovite nas za besplatne konsultacije">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="advokat-bogojevic.css">
+    <link rel="stylesheet" href="style.css">
+
+  <style>
+    img:hover {
+        transform: scaleX(-1);
+      }
+  </style>
+
+  <body onload="move()">
+    <div class="bio">
+      <i class="fa fa-balance-scale " style="font-size:20px; padding-top:1%;"></i>
+      <b>Advokat</b> </br> <b class="logo">MILOMIR BOGOJEVIĆ</b>
+    </div>
+     <!-- Navbar -->
+<div>
+    <div class="w3-bar boja w3-card">
+      <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a href="index.html" class="w3-bar-item w3-button w3-padding-large">POČETNA</a>
+      <a href="bogojevic-biografija.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BIOGRAFIJA</a>
+      <div class="w3-dropdown-hover w3-hide-small">
+        <button class="w3-padding-large w3-button" title="More">OBLASTI RADA <i class="fa fa-caret-down"></i></button>     
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <a href="bogojevic-naknadaS.html" class="w3-bar-item w3-button">NAKNADA ŠTETE</a>
+          <a href="bogojevic-radnoP.html" class="w3-bar-item w3-button">RADNO PRAVO</a>
+          <a href="bogojevic-porodicnoP.html" class="w3-bar-item w3-button">PORODIČNO I NASLJEDNO PRAVO</a>
+          <a href="bogojevic-katastar.html" class="w3-bar-item w3-button">ZEMLJIŠNO KNJIŽNO PRAVO - KATASTAR</a>
+          <a href="bogojevic-privrednoP.html" class="w3-bar-item w3-button">PRIVREDNO PRAVO</a>
+          <a href="bogojevic-upravnoP.html" class="w3-bar-item w3-button">UPRAVNO PRAVO</a>
+          <a href="bogojevic-izvrsniP.html" class="w3-bar-item w3-button">IZVRŠNI POSTUPAK</a>
+          <a href="bogojevic-krivicnoP.html" class="w3-bar-item w3-button">KRIVIČNO I PREKRŠAJNO PRAVO</a>
+        </div>
+      </div>
+      <a href="bogojevic-kontakt.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">KONTAKT</a>
+      <a href="bogojevic-blog.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BLOG</a>
+    </div>
+  </div>
+    <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+    <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px; background-color:beige">
+      <a href="bogojevic-pocetna.html" class="w3-bar-item w3-button w3-padding-large w3-white" onclick="myFunction()">POČETNA</a>
+      <a href="bogojevic-biografija.html" class="w3-bar-item w3-button w3-padding-large">BIOGRAFIJA</a>
+      <a href="#" class="w3-bar-item w3-button w3-padding-large dropbtn" onclick="dropdown()">OBLASTI RADA</a>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="bogojevic-naknadaS.html" class="w3-bar-item w3-button"> NAKNADA ŠTETE</a>
+          <a href="bogojevic-radnoP.html" class="w3-bar-item w3-button">RADNO PRAVO</a>
+          <a href="bogojevic-porodicnoP.html" class="w3-bar-item w3-button">PORODIČNO I NASLJEDNO PRAVO</a>
+          <a href="bogojevic-katastar.html" class="w3-bar-item w3-button">ZEMLJIŠNO KNJIŽNO PRAVO - KATASTAR</a>
+          <a href="bogojevic-privrednoP.html" class="w3-bar-item w3-button">PRIVREDNO PRAVO</a>
+          <a href="bogojevic-upravnoP.html" class="w3-bar-item w3-button">UPRAVNO PRAVO</a>
+          <a href="bogojevic-izvrsniP.html" class="w3-bar-item w3-button">IZVRŠNI POSTUPAK</a>
+          <a href="bogojevic-krivicnoP.html" class="w3-bar-item w3-button">KRIVIČNO I PREKRŠAJNO PRAVO</a>
+      </div>
+      <a href="bogojevic-kontakt.html" class="w3-bar-item w3-button w3-padding-large">KONTAKT</a>
+      <a href="bogojevic-blog.html" class="w3-bar-item w3-button w3-padding-large">BLOG</a>
+    </div>
+
+<!--Page Content-->
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+    <!-- The Grid -->
+    <div class="w3-row-padding">
+    
+      <!-- Left Column -->
+      <div class="w3-third">
+      
+        <div class="w3-white w3-text-grey w3-card-4">
+          <div class="w3-display-container">
+            <img src="slike/advokat-bogojevic.jpeg" style="width:100%; border-style: solid;" alt="advokat bogojevic">
+        </div>  
+        <div class="w3-container">
+            <div class="w3-display-center w3-container w3-text-gray">
+              <h2 style="background-color: #f2f2f2; text-align: center;">Milomir Bogojević</h2><hr>
+            </div>
+            <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large ikonice"></i>Advokat</p>
+            <p><i class="fa fa-home fa-fw w3-margin-right w3-large ikonice"></i>Banja Luka/RS/BiH</p>
+            <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large ikonice"></i>advokat.bogojevic@gmail.com</p>
+            <p><i class="fa fa-phone fa-fw w3-margin-right w3-large ikonice"></i>+387/51/492-952</p>
+            <p><i class="fa fa-mobile-phone fa-fw w3-margin-right w3-large ikonice " style="font-size:26px"></i>+387/66/262626</p>
+            
+            <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right ikonice "></i>Jezici</b>-<b>%</b></p>
+            <p>Engleski</p>
+            <div class="w3-light-grey ">
+              <div id="myBar" class="w3-round-xlarge jezik" ></div>
+            </div>
+            
+            <br>
+         </div>
+      </div><br>
+  
+      <!-- End Left Column -->
+      </div>
+  
+      <!-- Right Column -->
+      <div class="w3-twothird">
+        <div class="w3-container w3-card w3-white w3-margin-bottom">
+          <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge "></i>BIOGRAFIJA</h2><hr>
+         <p class="tex">Advokat Milomir Bogojević rođen je 10.01.1981. godine u Banja Luci.</br>
+         <p class="tex">Po završetku Pravnog fakulteta pripravnički staž je obavljao u Advokatskoj kancelariji Milorad Đukić 
+           gdje nakon položenog pravosudnog ispita obavlja poslove stručnog saradnika.</p>
+         <p class="tex"> Nakon što je stekao bogato pravno iskustvo,upisuje se u Advokatsku komoru kao samostalan advokat.</p>
+         <p class="tex"> Zastupa stranke u svim privrednim postupcima,parničnim,
+           vanparničnim,izvršnim,upravnim i krivičnim predmetima.</p>
+         <p class="tex"> Kao predavač je učestvovao na više seminara u oblasti naknade štete u saobraćajnim nezgodama,
+           te posjeduje posebno iskustvo kad je ova oblast u pitanju.</p>
+         <p class="tex">Aktivno govori Engleski jezik - B2 nivo (diploma Cambridge First Certificate in English - FCE).</p></br><hr>
+
+        </div>
+      <!-- End Right Column -->
+      </div>
+
+
+
+      <!-- Page Container Danijela >
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+  <The Grid ->
+  <div class="w3-row-padding ">
+  
+    <Left Column ->
+    <div class="w3-third">
+    
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img src="slike/adv.png" style="width:100%" alt="Avatar">  
+        </div>
+      <div class="w3-container">
+          <div class="w3-display-center w3-container w3-text-gray">
+            <h2>Danijela Bogojević</h2>
+          </div> </br>
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large ikonice"></i>Advokat</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large ikonice"></i>Banja Luka/RS/BiH</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large ikonice"></i>advokat.bogojevic@gmail.com</p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large ikonice"></i>+387/51/492-952</p>
+          <p><i class="fa fa-mobile-phone fa-fw w3-margin-right w3-large ikonice " style="font-size:26px"></i>+387/66/262626</p>
+          
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right ikonice "></i>Jezici</b>-<b>%</b></p>
+          <p>Engleski</p>
+          <div id="myProgress" class="w3-light-grey ">
+            <div id="myBar" class="w3-round-xlarge jezik" style="height:14px;"></div>
+          </div>
+          <p>Španski</p>
+          <div class="w3-light-grey ">
+            <div class="w3-round-xlarge jezik" style="height:14px;width:55%"></div>
+          </div>
+          <br>
+       </div>
+    </div><br>
+
+    <End Left Column ->
+    </div>
+
+    <Right Column ->
+    <div class="w3-twothird">
+    
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge "></i>BIOGRAFIJA</h2>
+      </div>
+    <End Right Column ->
+    </div-->
+      
+    
+  <!-- Footer -->
+<footer class="w3-container bio w3-center w3-margin-top">
+  <a href="https://www.facebook.com/milomir.bogojevic.33"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+  <a href="https://instagram.com/advokatbogojevic?igshid=bw9xwk27umfy"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <p class="w3-medium">&copy; Copyright 2020</p>
+  <p class="lu">Powered by <a target="_blank">Brami&Luweb</a></p>
+</footer>
+  
+  
+  <script src="script.js"></script>
+  </body>
+  </html>
+  
